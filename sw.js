@@ -1,5 +1,5 @@
 // Bump VERSION whenever you change any file, so users get the update.
-const VERSION="aml-monitor-v2";
+const VERSION="aml-monitor-v3";
 const PDF_LIB="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
 const FILES=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./apple-touch-icon.png"];
 self.addEventListener("install",e=>{e.waitUntil((async()=>{const c=await caches.open(VERSION);await c.addAll(FILES);try{const r=await fetch(PDF_LIB,{mode:"no-cors"});await c.put(PDF_LIB,r)}catch(x){}self.skipWaiting()})())});
