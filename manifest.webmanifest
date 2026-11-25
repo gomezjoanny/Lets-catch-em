@@ -1,7 +1,7 @@
 {
- "name": "AML Monitor",
- "short_name": "AML Monitor",
- "description": "Transaction monitoring, KYC and SAR workflow with training (demo data).",
+ "name": "Let’s Catch ’em",
+ "short_name": "Catch ’em",
+ "description": "AML monitoring, KYC, SAR workflow, training and certification (demo data).",
  "start_url": "./index.html",
  "scope": "./",
  "display": "standalone",

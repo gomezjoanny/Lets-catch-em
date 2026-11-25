@@ -1,4 +1,4 @@
-# AML Monitor: installable app (PWA)
+# Let’s Catch ’em: installable app (PWA)
 
 A demo transaction monitoring, KYC and SAR workflow with training. All customers, counterparties and transactions are fictional. Do not enter real customer data.
 
@@ -32,7 +32,7 @@ It opens full screen with its own icon.
 - PDFs open the phone's share sheet where available (choose WhatsApp, Mail and so on). Otherwise they download.
 
 ## 4. Updating
-Change any file, then change `VERSION` in `sw.js` (for example `aml-monitor-v2`) and upload again. Users get the new version on their next visit.
+Change any file, then change `VERSION` in `sw.js` (for example `aml-monitor-v7`) and upload again. Users get the new version on their next visit.
 
 ## 5. Offline notes
 The PDF library loads from cdnjs on the first visit and is then cached. If a device never opened the app online, PDF export will not work until it does.
